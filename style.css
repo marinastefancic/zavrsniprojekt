@@ -1,0 +1,110 @@
+body {
+	background: linear-gradient(to right, #fc6076 , #ff9a44);
+}
+.item {
+	color: white;	
+}
+ul.main-menu {
+	line-height: 100px;
+	background: rgba(255,255,255,0.25);
+	color: #231E58;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 50px;
+}
+ul.main-menu li {
+	line-height: 1;
+	margin: 0 20px;
+	border: solid 2px #231E58;
+	border-radius: 20px;
+	padding: 10px 20px;
+	display: inline-block;
+	cursor: pointer;
+}
+.page-content {
+	padding: 90px;
+	font-weight: bold;
+	color: #231E58;
+	
+}
+
+.form-group {
+	padding-top: 10px;
+	display: center;
+	opacity: 0.9;
+}
+
+.btn btn-default {
+	opacity: 0.8;
+}
+
+p {
+	font-size: 15pt;
+	display: center;
+	font-style: regular;
+	line-height: 90%;
+
+}
+
+h1 {
+	font-style: bolder
+	font-size: 15pt;
+	line-height: 50%;
+	padding-bottom: 40px;
+} 
+
+p.opis {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 130%;
+}
+
+
+.kockica {
+	margin-top: 100px;
+	line-height: 70%;
+	
+}
+
+body { 
+  font-family: Avenir, sans-serif; margin: 0; 
+  background-color: #121;
+}
+div#quad { 
+  background-color: #000; 
+  font-size: 0; width: 60%; 
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.8);
+}
+div#quad figure { 
+  margin: 0; width: 50%; 
+  height: auto; transition: 1s; 
+  display: inline-block; 
+  position: relative; overflow: hidden; 
+}
+div#quad figure:hover { cursor: pointer; z-index: 4; }
+div#quad figure img { width: 100%; height: auto; }
+div#quad figure:nth-child(1) { transform-origin: top left; }
+div#quad figure:nth-child(2) { transform-origin: top right; }
+div#quad figure:nth-child(3) { transform-origin: bottom left; }
+div#quad figure:nth-child(4) { transform-origin: bottom right; }
+div#quad figure figcaption { 
+  margin: 0; opacity: 0; 
+  background: rgba(0,0,0,0.3); 
+  color: #fff; padding: .3rem; 
+  font-size: 1.2rem; 
+  position: absolute; 
+  bottom: 0; width: 100%;
+	transition: 1s 1s opacity; 
+}
+.expanded { transform: scale(2); z-index: 5;  }
+div#quad figure.expanded figcaption { opacity: 1; }
+div.full figure:not(.expanded) { pointer-events: none; }	
+
+
+
+	
+	
+
+
+
